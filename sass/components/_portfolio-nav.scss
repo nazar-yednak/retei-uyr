@@ -1,0 +1,14 @@
+.works__nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 0;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    padding-bottom: 0;
+  }
+}
+.works__item {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}

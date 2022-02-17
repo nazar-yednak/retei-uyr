@@ -1,0 +1,17 @@
+.logo-footers {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: $second-accent-color;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
