@@ -2,37 +2,48 @@ footer {
   background-color: #fff5f6;
   padding: 65px;
 }
-
 .container {
   margin-right: auto;
   margin-left: auto;
   min-width: 1280px;
 }
-
-@media screen and (min-width: 320px) {
-  .footer-wrap {
+.footer-wrap {
+  @media screen and (min-width: 320px) {
     max-width: 320px;
   }
 }
-
 .footer-logo {
   font-family: Titan One;
   font-style: Regular;
+
   font-size: 18px;
   line-height: 21px;
   color: #ffa5ba;
 }
-
 .footer-logo__s {
   color: #d41443;
 }
-
+.footer-social {
+}
+.fopter-social__list {
+}
+.fopter-social__item {
+}
+.address {
+}
+.address__tel {
+}
 .link {
   text-decoration: none;
   list-style: none;
 }
-
 .list {
   list-style: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+.address__tel--text {
+}
+.subscription {
+}
+.subscription__text {
+}
